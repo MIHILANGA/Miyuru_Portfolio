@@ -537,7 +537,7 @@ section,
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 30%);
+  background: color-mix(in srgb, var(--background-color), transparent 60%);
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -1151,7 +1151,8 @@ section,
 # Portfolio Details Section
 --------------------------------------------------------------*/
 .portfolio-details .portfolio-details-slider img {
-  width: 100%;
+  width: 80%;
+  padding-left: 20%;
 }
 
 .portfolio-details .swiper-wrapper {
